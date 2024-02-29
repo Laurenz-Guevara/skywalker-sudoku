@@ -15,20 +15,20 @@
       padding-left: 5px;
     }
   }
-}
 
-.button:hover {
-  cursor: pointer;
-  opacity: 0.8;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
 }
 
 .disabled {
   opacity: 0.5;
-}
 
-.disabled:hover {
-  opacity: 0.5;
-  cursor: not-allowed;
+  &:hover {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 }
 
 .default {
