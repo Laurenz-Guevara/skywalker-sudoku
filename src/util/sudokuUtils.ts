@@ -59,6 +59,10 @@ function isValid(
 }
 
 export function isValidSudoku(board: string[][]): boolean {
+  if (!board.flat().every(cell => /^[\d.]$/.test(cell))) {
+    return false;
+  }
+
   const rows = board.length;
   const cols = board[0].length;
 
