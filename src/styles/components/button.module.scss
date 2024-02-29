@@ -1,0 +1,48 @@
+@import "../settings.scss";
+
+.button {
+  padding: 10px 20px;
+  margin: 0 4px;
+  background-color: $colour-green;
+  border: none;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    svg {
+      padding-left: 5px;
+    }
+  }
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.disabled:hover {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.default {
+  background-color: $colour-white;
+}
+
+.blue {
+  background-color: $colour-sky;
+}
+
+.red {
+  background-color: $colour-red;
+}
+
+.green {
+  background-color: $colour-green;
+}

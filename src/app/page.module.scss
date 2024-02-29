@@ -1,0 +1,56 @@
+@import "@/styles/settings.scss";
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #161620;
+  display: grid;
+  place-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.bottomBorder {
+  border-bottom: 4px solid black;
+}
+
+.rightBorder {
+  border-right: 4px solid black;
+}
+
+.rightBorder:last-child {
+  border-right: none;
+}
+
+.bottomBorder:last-c {
+  border-bottom: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.panel {
+  margin: 10px 0;
+  padding: 16px 12px;
+  background-color: $colour-secondary;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  color: $colour-white;
+}
+
+.hidden {
+  display: none;
+}
