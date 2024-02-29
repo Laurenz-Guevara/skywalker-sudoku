@@ -86,7 +86,7 @@ export default function Home() {
         </tbody>
       </table>
       <div className={styles.controls}>
-        <button className={styles.solve} onClick={() => solveSudoku(board)}>
+        <button className={styles.solve} onClick={() => solveSudoku}>
           Solve
         </button>
       </div>
